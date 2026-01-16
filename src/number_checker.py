@@ -19,4 +19,4 @@ def check_number(number):
     # Használd a modulo operátort (%)
     # Ha number % 2 == 0, akkor páros → "even"
     # Egyébként páratlan → "odd"
-    pass
+    return "even" if number % 2 == 0 else "odd"
